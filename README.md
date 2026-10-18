@@ -17,7 +17,8 @@ listed in `tables/Table_S1_dataset_census.csv`.
 scripts/
   metafor_py.py                  metafor-equivalent random-effects meta-analysis (validated)
   rebuild_sensitivity_py.py      regenerates the 2x2 / LODO / r-sweep sensitivity analyses
-  build_paperA_tables.py         assembles Table 1, Table 2, Table S1-S4 (XLSX)
+  build_paperA_tables.py         assembles Table 1, Table 2, Table S1-S5 (XLSX)
+  deg_power_diagnostics.py       Table S5: why some comparisons yield no FDR-significant DEGs
   P1_figures_effectsize_v28.py   Figure 4 (forest plots) and Figure 5 (effect sizes)
   P1_figS2_composition.py        Figure S2 (GSE217707 single-cell composition)
   effect_size_meta_v28.R         original R/metafor implementation (reference)
@@ -41,7 +42,7 @@ pip install -r requirements.txt
 # 1. Rebuild the sensitivity analyses on the primary analysis' basis (~2 s)
 python scripts/rebuild_sensitivity_py.py
 
-# 2. Build all six deliverable tables
+# 2. Build all deliverable tables (Table 1, 2, S1-S5)
 python scripts/build_paperA_tables.py
 
 # 3. Rebuild Figures 4 and 5
@@ -49,6 +50,10 @@ python scripts/P1_figures_effectsize_v28.py
 
 # 4. Rebuild Figure S2
 python scripts/P1_figS2_composition.py
+
+# 5. (optional) Recompute the DEG power diagnostics behind Table S5,
+#    needs the per-dataset DEG matrices from the preprocessing pipeline
+python scripts/deg_power_diagnostics.py
 ```
 
 All scripts locate their inputs relative to the repository root; set `PAPER_A_DIR`
@@ -138,6 +143,17 @@ Two implementation details matter and are documented in the code:
   |log₂FC| > 0.585 from the public series matrices; `tables/deg_summary_counts.csv`
   holds the resulting counts. The per-dataset DEG matrices themselves are upstream
   products of the GEO preprocessing pipeline and are not redistributed here.
+* **Several comparisons report zero FDR-significant genes** (GSE183153 4 vs 2,
+  GSE191114 7 vs 2). This is a power limitation, not a processing failure, and
+  `tables/TableS5_DEG_power_diagnostics.csv` documents it: in GSE183153 the spread of
+  effect sizes is actually larger than in GSE2513 (8 vs 4; log₂FC SD 0.77 vs 0.33, with
+  16% vs 1.8% of genes above |log₂FC| > 1), but the median standard error is ~2.9×
+  higher (0.52 vs 0.18) because the control arm has only two samples, so nothing
+  survives FDR correction. The genomic inflation factor is 1.05 and the estimated
+  signal proportion (π1) is 1.6%, i.e. the test statistics behave as expected. This is
+  also why cross-cohort inference in the paper rests on the module-level meta-analysis:
+  pooling genes into GSVA scores averages away most of the per-gene sampling noise, and
+  the ECM module still shows g = 0.46 in this cohort.
 * Cohorts with two samples per group (GSE151872, GSE208384) and the pinguecula
   comparison are exploratory only; comparisons with n < 3 per group yield no
   FDR-significant genes, which is a power limitation rather than an absence of effect.
