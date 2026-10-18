@@ -5,3 +5,5 @@ figures/*.png
 figures/*.tif
 figures_supplement/*.png
 figures_supplement/*.tif
+# audit-trail copies of superseded sensitivity tables (wrong basis, kept locally only)
+tables/*_audit_basis.csv
