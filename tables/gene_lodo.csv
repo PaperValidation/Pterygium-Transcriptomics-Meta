@@ -1,0 +1,5 @@
+dropped_cohort,full_gene_count,lodo_gene_count,intersection_count,union_count,jaccard,full_retained_pct
+GSE155776,1691,83,56,1718,0.0326,3.3
+GSE51995,1691,1589,857,2423,0.3537,50.7
+GSE2513,1691,1505,918,2278,0.403,54.3
+GSE183153,1691,2084,1153,2622,0.4397,68.2

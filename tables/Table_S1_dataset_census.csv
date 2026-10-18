@@ -1,0 +1,12 @@
+﻿dataset,disease,design,platform,data_type,pmid,role,exclusion
+GSE155776,Pterygium,pterygium 8 vs healthy conjunctiva 8,GPL18573 (RNA-seq),bulk RNA-seq,35174178,"Primary discovery cohort (module scores, FES/OSNS, meta)",
+GSE183153,Pterygium + pinguecula,pterygium 4 / pinguecula 2 / conjunctiva 2,GPL16791 (RNA-seq),bulk RNA-seq,34769520,Pterygium meta; pinguecula exploratory (n=2),
+GSE51995,Pterygium,"pterygium 4 vs conjunctiva 4 (paired, same eye)",GPL14550 (microarray),microarray,24825356,Pterygium meta (paired),
+GSE83627,Pterygium,pterygium 4 vs conjunctiva 4,GPL14550 (microarray),microarray,,EXCLUDED,Confirmed duplicate of GSE51995 (same 8 samples re-deposited; expression correlation r=1.0 across all pairs)
+GSE2513,Pterygium,pterygium 8 vs conjunctiva 4,GPL96 (microarray),microarray,16488932,Pterygium meta (directional support); FES/OSNS,
+GSE191114,Pterygium (activity),active 7 vs atrophic 2,GPL23126 (microarray),microarray,34997134,Activity comparison only (supplementary),Not in main lesion comparison
+GSE147449,OSSN (SCC) + papilloma,SCC 7 / papilloma 7 vs healthy 10,"GPL18573 (MACE RNA-seq, FFPE)",bulk RNA-seq (FFPE-MACE),33277602,OSSN / papilloma signatures; module-level comparison only,"FFPE-MACE: module-level only, no raw-count merging"
+GSE148387,Conjunctival melanoma,melanoma 12 (good/poor) vs healthy 8,GPL18573 (RNA-seq),bulk RNA-seq,33046735,Melanoma signature / rank-rank reference,
+GSE217707,Conjunctival melanoma,melanoma 7 vs benign 3 (10x scRNA-seq),GPL24676 (scRNA-seq),"scRNA-seq (54,175 cells)",38862482,Single-cell resolution of melanoma TME,
+GSE151872,Pterygium,pterygium (apical) 2 vs conjunctiva 2,GPL17077 (microarray),microarray,32822701,Exploratory only,n<3 per group
+GSE208384,Pterygium,pterygium 2 vs conjunctiva 2,GPL17586 (microarray),microarray,36187094,Exploratory only,n<3 per group

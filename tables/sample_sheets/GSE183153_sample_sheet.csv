@@ -1,0 +1,9 @@
+sample_id,group,patient_id,tissue_site,platform,include,note
+GSM5552151,normal_conjunctiva,,conjunctiva,GPL16791,1,healthy conjunctiva (6-COC)
+GSM5552152,normal_conjunctiva,,conjunctiva,GPL16791,1,healthy conjunctiva (22-COC)
+GSM5552153,pinguecula,,pinguecula,GPL16791,1,pinguecula (19-COC)
+GSM5552154,pinguecula,,pinguecula,GPL16791,1,pinguecula (21-COC)
+GSM5552155,pterygium,,pterygium,GPL16791,1,pterygium normal UV exposure (13-CV)
+GSM5552156,pterygium,,pterygium,GPL16791,1,pterygium normal UV exposure (9-COC)
+GSM5552157,pterygium,,pterygium,GPL16791,1,pterygium high UV exposure (3-COC)
+GSM5552158,pterygium,,pterygium,GPL16791,1,pterygium high UV exposure (11-CV)

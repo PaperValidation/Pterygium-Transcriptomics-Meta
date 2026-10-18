@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+figures/*.png
+figures/*.tif
+figures_supplement/*.png
+figures_supplement/*.tif

@@ -1,0 +1,21 @@
+sample_id,sample_label,group,tissue_site,platform,include
+GSM4466760,Melanoma_bad_S1,melanoma,Melanoma,GPL16791,1
+GSM4466761,Melanoma_bad_S2,melanoma,Melanoma,GPL16791,1
+GSM4466762,Melanoma_bad_S3,melanoma,Melanoma,GPL16791,1
+GSM4466763,Melanoma_bad_S4,melanoma,Melanoma,GPL16791,1
+GSM4466764,Melanoma_bad_S5,melanoma,Melanoma,GPL16791,1
+GSM4466765,Melanoma_bad_S6,melanoma,Melanoma,GPL16791,1
+GSM4466766,Melanoma_good_S1,melanoma,Melanoma,GPL16791,1
+GSM4466767,Melanoma_good_S2,melanoma,Melanoma,GPL16791,1
+GSM4466768,Melanoma_good_S3,melanoma,Melanoma,GPL16791,1
+GSM4466769,Melanoma_good_S4,melanoma,Melanoma,GPL16791,1
+GSM4466770,Melanoma_good_S5,melanoma,Melanoma,GPL16791,1
+GSM4466771,Melanoma_good_S6,melanoma,Melanoma,GPL16791,1
+GSM4466772,Normal_conjunctiva_S1,normal_conjunctiva,Healthy conjunctiva,GPL16791,1
+GSM4466773,Normal_conjunctiva_S2,normal_conjunctiva,Healthy conjunctiva,GPL16791,1
+GSM4466774,Normal_conjunctiva_S3,normal_conjunctiva,Healthy conjunctiva,GPL16791,1
+GSM4466775,Normal_conjunctiva_S4,normal_conjunctiva,Healthy conjunctiva,GPL16791,1
+GSM4466776,Normal_conjunctiva_S5,normal_conjunctiva,Healthy conjunctiva,GPL16791,1
+GSM4466777,Normal_conjunctiva_S6,normal_conjunctiva,Healthy conjunctiva,GPL16791,1
+GSM4466778,Normal_conjunctiva_S7,normal_conjunctiva,Healthy conjunctiva,GPL16791,1
+GSM4466779,Normal_conjunctiva_S8,normal_conjunctiva,Healthy conjunctiva,GPL16791,1

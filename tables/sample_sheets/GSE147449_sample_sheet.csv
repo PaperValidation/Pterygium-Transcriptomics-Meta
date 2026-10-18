@@ -1,0 +1,25 @@
+sample_id,sample_label,group,tissue_site,platform,include
+GSM4430956,CA_S1,scc,SCC,GPL18573,1
+GSM4430957,CA_S2,scc,SCC,GPL18573,1
+GSM4430958,CA_S3,scc,SCC,GPL18573,1
+GSM4430959,CA_S4,scc,SCC,GPL18573,1
+GSM4430960,CA_S5,scc,SCC,GPL18573,1
+GSM4430961,CA_S6,scc,SCC,GPL18573,1
+GSM4430962,CA_S7,scc,SCC,GPL18573,1
+GSM4430963,PA_S1,papilloma,Papilloma,GPL18573,1
+GSM4430964,PA_S2,papilloma,Papilloma,GPL18573,1
+GSM4430965,PA_S3,papilloma,Papilloma,GPL18573,1
+GSM4430966,PA_S4,papilloma,Papilloma,GPL18573,1
+GSM4430967,PA_S5,papilloma,Papilloma,GPL18573,1
+GSM4430968,PA_S6,papilloma,Papilloma,GPL18573,1
+GSM4430969,PA_S7,papilloma,Papilloma,GPL18573,1
+GSM4430970,S1,normal_conjunctiva,Healthy conjunctiva,GPL18573,1
+GSM4430971,S2,normal_conjunctiva,Healthy conjunctiva,GPL18573,1
+GSM4430972,S3,normal_conjunctiva,Healthy conjunctiva,GPL18573,1
+GSM4430973,S4,normal_conjunctiva,Healthy conjunctiva,GPL18573,1
+GSM4430974,S5,normal_conjunctiva,Healthy conjunctiva,GPL18573,1
+GSM4430975,S6,normal_conjunctiva,Healthy conjunctiva,GPL18573,1
+GSM4430976,S7,normal_conjunctiva,Healthy conjunctiva,GPL18573,1
+GSM4430977,S8,normal_conjunctiva,Healthy conjunctiva,GPL18573,1
+GSM4430978,S9,normal_conjunctiva,Healthy conjunctiva,GPL18573,1
+GSM4430979,S10,normal_conjunctiva,Healthy conjunctiva,GPL18573,1

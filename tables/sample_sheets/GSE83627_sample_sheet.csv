@@ -1,0 +1,9 @@
+sample_id,group,patient_id,tissue_site,platform,include,note
+GSM2211293,normal_conjunctiva,,Conjunctiva tissue,GPL14550,1,
+GSM2211294,normal_conjunctiva,,Conjunctiva tissue,GPL14550,1,
+GSM2211295,normal_conjunctiva,,Conjunctiva tissue,GPL14550,1,
+GSM2211296,normal_conjunctiva,,Conjunctiva tissue,GPL14550,1,
+GSM2211297,pterygium,,Pterygium tissue,GPL14550,1,
+GSM2211298,pterygium,,Pterygium tissue,GPL14550,1,
+GSM2211299,pterygium,,Pterygium tissue,GPL14550,1,
+GSM2211300,pterygium,,Pterygium tissue,GPL14550,1,

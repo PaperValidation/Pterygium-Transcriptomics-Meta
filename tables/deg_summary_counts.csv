@@ -1,0 +1,11 @@
+Dataset,Comparison,Design,n_disease,n_control,Genes tested,"DEGs (FDR<0.05, |log2FC|>0.585)",Up,Down,Role
+GSE155776,Pterygium vs healthy conjunctiva,independent,8,8,26885,5516,2253,3263,Primary discovery cohort
+GSE183153,Pterygium vs healthy conjunctiva,independent,4,2,39374,0,0,0,Pterygium meta cohort
+GSE183153,Pinguecula vs healthy conjunctiva,independent,2,2,39374,0,0,0,Exploratory (n=2)
+GSE51995,Pterygium vs conjunctiva,paired (same eye),4,4,22070,15,11,4,Pterygium meta cohort
+GSE2513,Pterygium vs conjunctiva,independent,8,4,12502,9,5,4,Pterygium meta cohort
+GSE191114,Active vs atrophic pterygium,independent,7,2,75900,0,0,0,Activity-only (supplementary)
+GSE208384,Pterygium vs conjunctiva,independent,2,2,31018,67,45,22,Exploratory (n=2)
+GSE147449,SCC vs healthy conjunctiva,independent,7,10,23505,1036,709,327,OSSN comparator
+GSE147449,Papilloma vs healthy conjunctiva,independent,7,10,23505,3020,2307,713,Papilloma comparator
+GSE148387,Melanoma vs healthy conjunctiva,independent,12,8,20189,2946,1422,1524,Melanoma comparator
